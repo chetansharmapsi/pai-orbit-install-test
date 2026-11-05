@@ -86,21 +86,22 @@ jobs:
           ensure_branch()
 
           # --- release-asset downloads (one snapshot row per asset per day) ---
+          # A rerun on the same day replaces today's rows with fresh counts.
           rel_txt, rel_sha = read("releases.csv")
-          rel = rel_txt.splitlines() or ["date,version,agent,download_count"]
-          if not any(l.startswith(TODAY + ",") for l in rel[1:]):
-              page = 1
-              while True:
-                  rs = api(f"repos/{R}/releases?per_page=100&page={page}")
-                  if not rs:
-                      break
-                  for r in rs:
-                      for a in r["assets"]:
-                          if a["name"].startswith("pai-orbit-"):
-                              agent = a["name"][len("pai-orbit-"):].split(".")[0]
-                              rel.append(f"{TODAY},{r['tag_name']},{agent},{a['download_count']}")
-                  page += 1
-              write("releases.csv", "\n".join(rel) + "\n", rel_sha)
+          lines = rel_txt.splitlines() or ["date,version,agent,download_count"]
+          rel = [lines[0]] + [l for l in lines[1:] if not l.startswith(TODAY + ",")]
+          page = 1
+          while True:
+              rs = api(f"repos/{R}/releases?per_page=100&page={page}")
+              if not rs:
+                  break
+              for r in rs:
+                  for a in r["assets"]:
+                      if a["name"].startswith("pai-orbit-"):
+                          agent = a["name"][len("pai-orbit-"):].split(".")[0]
+                          rel.append(f"{TODAY},{r['tag_name']},{agent},{a['download_count']}")
+              page += 1
+          write("releases.csv", "\n".join(rel) + "\n", rel_sha)
 
           # --- clones (complete days only; GitHub keeps 14 days) ---
           traffic_error = None
