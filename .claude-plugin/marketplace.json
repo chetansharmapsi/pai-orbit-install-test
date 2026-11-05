@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "the-psi",
+  "name": "pai-orbit-install-test",
   "description": "Pratham Software (PSI) plugin marketplace",
   "owner": {
     "name": "Pratham Software (PSI)",
