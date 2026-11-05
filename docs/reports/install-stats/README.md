@@ -6,9 +6,9 @@ _Updated 2026-11-05 by the `install-stats` workflow. Do not edit by hand._
 
 | Agent | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| claude-code | n/a (not enough history) | n/a (not enough history) | 0 |
-| codex | n/a (not enough history) | n/a (not enough history) | 0 |
-| copilot | n/a (not enough history) | n/a (not enough history) | 0 |
+| claude-code | n/a (not enough history) | n/a (not enough history) | 3 |
+| codex | n/a (not enough history) | n/a (not enough history) | 3 |
+| copilot | n/a (not enough history) | n/a (not enough history) | 3 |
 
 ## Repo clones (Cursor + Claude Code marketplace catalog + team; CI removed)
 
