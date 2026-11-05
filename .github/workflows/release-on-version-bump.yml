@@ -11,7 +11,7 @@ name: release-on-version-bump
 on:
   push:
     branches: [main]
-    paths: [package.json]
+    paths: [package.json, plugins/pai-orbit/core/plugin.json]
   workflow_dispatch:
 
 permissions:
