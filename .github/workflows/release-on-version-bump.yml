@@ -67,9 +67,10 @@ jobs:
           VERSION: ${{ steps.v.outputs.version }}
           README_URL: https://github.com/${{ github.repository }}/blob/v${{ steps.v.outputs.version }}/README.md
         run: |
+          # Take this version's note; stop at a non-quote line or the next version's note.
           awk -v ver="> **v${VERSION} " '
+            on && (!/^>/ || /^> \*\*v[0-9]/) { exit }
             index($0, ver) == 1 { on = 1 }
-            on && !/^>/ { exit }
             on { sub(/^> ?/, ""); print }
           ' README.md > release-notes.md
           # README anchors like (#updating) only work inside the README; point them at it.
