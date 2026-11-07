@@ -14,6 +14,4 @@ _Updated 2026-11-07 by the `install-stats` workflow. Do not edit by hand._
 
 | Last 7 days | Last 30 days | Since tracking started |
 |---|---|---|
-| 0 | 0 | 0 |
-
-> ⚠️ Clone numbers not updated: GET repos/chetansharmapsi/pai-orbit-install-test/traffic/clones?per=day -> HTTP 403: {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-repository-clones","status":"403"}
+| 111 | 111 | 111 |
