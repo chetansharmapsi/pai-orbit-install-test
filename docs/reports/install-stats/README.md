@@ -1,6 +1,6 @@
 # pai-orbit install stats
 
-_Updated 2026-11-06 by the `install-stats` workflow. Do not edit by hand._
+_Updated 2026-11-07 by the `install-stats` workflow. Do not edit by hand._
 
 ## Downloads per coding agent (release assets — installs + updates)
 
