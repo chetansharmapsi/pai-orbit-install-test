@@ -23,4 +23,4 @@ GitHub doesn't say who cloned, so Cursor installs can't be separated from bots, 
 | 11-06 | 15 | 8 | 0 |
 | 11-05 | 96 | 29 | 6 |
 
-Typical quiet day: ~29 unique machines (median of the last 2 days). Days well above this suggest real installs.
+Typical quiet day: shown once there are 7 days of data.
