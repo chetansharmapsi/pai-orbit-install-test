@@ -13,11 +13,7 @@
       "author": {
         "name": "Pratham Sofware (PSI)"
       },
-      "source": {
-        "source": "archive",
-        "url": "https://github.com/chetansharmapsi/pai-orbit-install-test/releases/download/v1.13.1/pai-orbit-claude-code.zip",
-        "sha256": "4da91ef8a494bd9fdb09be927e8849b6e9d7496a09d6f38456c66a4ac9028933"
-      },
+      "source": "./plugins/pai-orbit/dist/claude-code/",
       "category": "development",
       "homepage": "https://github.com/the-psi/pai-orbit"
     }
