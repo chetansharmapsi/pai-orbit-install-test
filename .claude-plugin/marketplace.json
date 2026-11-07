@@ -15,8 +15,8 @@
       },
       "source": {
         "source": "archive",
-        "url": "https://github.com/chetansharmapsi/pai-orbit-install-test/releases/download/v1.13.2/pai-orbit-claude-code.zip",
-        "sha256": "9e134fdc20670586d29f39da810123217b4fe1b620a84944c5ab60b8bcae221b"
+        "url": "https://github.com/chetansharmapsi/pai-orbit-install-test/releases/download/v1.13.3/pai-orbit-claude-code.zip",
+        "sha256": "82cb6d570aee5fb05600a6ef602cdb6773a3716e666f67844f5bd722f6855eed"
       },
       "category": "development",
       "homepage": "https://github.com/the-psi/pai-orbit"
