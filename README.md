@@ -123,6 +123,7 @@ Workflow skills (`/git`, `/board`, `/analysis`, `/data-model`, `/process-map`, `
 
 > **`/review security`** — the security-focused pass is a sub-mode of `/review`. Use `/review` for full code review, `/review security` for the OWASP checklist, or `/review full` for both in sequence. Critical and High findings block merge.
 
+> **v1.13.4 — install tracking demo.** Release notes now come from this README note. Codex, Copilot and Claude Code installs are counted per agent from release downloads; see [Updating](#updating).
 > **v1.13.0 — `/build` orchestrates parallel streams.** For builds over 3 files, `/build` now splits work into code, tests and docs streams run by the primary agent: dependent tasks in order, independent tasks together, changes reported and reconciled at each layer, then one verification run. Same behaviour on every adapter within the tool's agent cap. Update pai-orbit to pick it up (see [Updating](#updating)).
 
 > **v1.12.0 — `/catchup` session-start briefing.** A new read-only mode for the start of a work session: it reads the project baseline, reports what the team shipped and what is open, lists what is assigned to you and any reviews waiting on you, and proposes what to pick next. It writes nothing and creates no branch — hand off to `/build` when you pick something. PR and board access go through `/git` and `/board`; handles and keys resolve from `.claude/pai-orbit-config.md` and `.claude/team.md`. Update pai-orbit to pick it up (see [Updating](#updating)).
