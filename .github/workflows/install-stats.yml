@@ -168,10 +168,13 @@ jobs:
           if recent:
               out += ["| Date | Clones | Unique machines | CI removed |", "|---|---|---|---|"]
               out += [f"| {r[0][5:]} | {r[4]} | {r[2]} | {r[3]} |" for r in recent]
-              uniques = sorted(int(r[2]) for r in recent)
-              typical = uniques[len(uniques) // 2]
-              out += ["", f"Typical quiet day: ~{typical} unique machines "
-                          f"(median of the last {len(recent)} days). Days well above this suggest real installs."]
+              if len(recent) >= 7:
+                  uniques = sorted(int(r[2]) for r in recent)
+                  typical = uniques[(len(uniques) - 1) // 2]
+                  out += ["", f"Typical quiet day: ~{typical} unique machines "
+                              f"(median of the last {len(recent)} days). Days well above this suggest real installs."]
+              else:
+                  out += ["", "Typical quiet day: shown once there are 7 days of data."]
           else:
               out += ["_No clones recorded yet._"]
           if traffic_error:
