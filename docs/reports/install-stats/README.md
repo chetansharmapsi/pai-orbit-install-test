@@ -1,6 +1,6 @@
 # pai-orbit install stats
 
-_Updated 2026-11-08 by the `install-stats` workflow. Do not edit by hand._
+_Updated 2026-11-09 by the `install-stats` workflow. Do not edit by hand._
 
 ## Installs per coding agent (exact)
 
@@ -20,6 +20,7 @@ GitHub doesn't say who cloned, so Cursor installs can't be separated from bots, 
 
 | Date | Clones | Unique machines | CI removed |
 |---|---|---|---|
+| 11-08 | 23 | 11 | 0 |
 | 11-07 | 179 | 81 | 6 |
 | 11-06 | 15 | 8 | 0 |
 | 11-05 | 96 | 29 | 6 |
