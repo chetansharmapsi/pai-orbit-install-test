@@ -2,7 +2,7 @@
 
 _Updated 2026-11-10 by the `install-stats` workflow. Do not edit by hand._
 
-📊 **Dashboard with charts:** https://chetansharmapsi.github.io/pai-orbit-install-test/
+📊 **Dashboard with charts:** https://chetansharmapsi.github.io/pai-orbit-install-test/install-stats/
 
 ## Installs per coding agent (exact)
 
