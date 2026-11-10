@@ -1,6 +1,8 @@
 # pai-orbit install stats
 
-_Updated 2026-11-09 by the `install-stats` workflow. Do not edit by hand._
+_Updated 2026-11-10 by the `install-stats` workflow. Do not edit by hand._
+
+📊 **Dashboard with charts:** https://chetansharmapsi.github.io/pai-orbit-install-test/
 
 ## Installs per coding agent (exact)
 
