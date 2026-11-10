@@ -22,6 +22,7 @@ GitHub doesn't say who cloned, so Cursor installs can't be separated from bots, 
 
 | Date | Clones | Unique machines | CI removed |
 |---|---|---|---|
+| 11-09 | 33 | 16 | 0 |
 | 11-08 | 23 | 11 | 0 |
 | 11-07 | 179 | 81 | 6 |
 | 11-06 | 15 | 8 | 0 |
