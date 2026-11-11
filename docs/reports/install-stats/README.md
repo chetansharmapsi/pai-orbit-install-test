@@ -1,6 +1,6 @@
 # pai-orbit install stats
 
-_Updated 2026-11-10 by the `install-stats` workflow. Do not edit by hand._
+_Updated 2026-11-11 by the `install-stats` workflow. Do not edit by hand._
 
 📊 **Dashboard with charts:** https://chetansharmapsi.github.io/pai-orbit-install-test/install-stats/
 
@@ -22,6 +22,7 @@ GitHub doesn't say who cloned, so Cursor installs can't be separated from bots, 
 
 | Date | Clones | Unique machines | CI removed |
 |---|---|---|---|
+| 11-10 | 73 | 31 | 0 |
 | 11-09 | 33 | 16 | 0 |
 | 11-08 | 23 | 11 | 0 |
 | 11-07 | 179 | 81 | 6 |
