@@ -1,6 +1,6 @@
 # pai-orbit install stats
 
-_Updated 2026-11-23 by the `install-stats` workflow. Do not edit by hand._
+_Updated 2026-11-24 by the `install-stats` workflow. Do not edit by hand._
 
 📊 **Dashboard with charts:** https://chetansharmapsi.github.io/pai-orbit-install-test/install-stats/
 
@@ -22,6 +22,7 @@ GitHub doesn't say who cloned, so Cursor installs can't be separated from bots, 
 
 | Date | Clones | Unique machines | CI removed |
 |---|---|---|---|
+| 11-23 | 2 | 2 | 0 |
 | 11-22 | 25 | 13 | 0 |
 | 11-21 | 14 | 8 | 0 |
 | 11-20 | 1 | 1 | 0 |
@@ -35,6 +36,5 @@ GitHub doesn't say who cloned, so Cursor installs can't be separated from bots, 
 | 11-12 | 12 | 7 | 0 |
 | 11-11 | 65 | 33 | 0 |
 | 11-10 | 73 | 31 | 0 |
-| 11-09 | 33 | 16 | 0 |
 
-Typical quiet day: ~12 unique machines (median of the last 14 days). Days well above this suggest real installs.
+Typical quiet day: ~11 unique machines (median of the last 14 days). Days well above this suggest real installs.
